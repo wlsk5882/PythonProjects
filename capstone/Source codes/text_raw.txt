@@ -1,0 +1,279 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+2015 Alerts | US-CERT
+
+
+
+
+
+
+
+
+
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.us-cert.gov/sites/default/files/googleanalytics/analytics.js?nz15d8","ga");ga("create", "UA-34879253-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+
+
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uscert_gov_theme","theme_token":"xasm9VOLSYVb4Pj0Rn99IQnhXR20oQGE84CkH8kw3CA","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"profiles\/uscert_gov\/modules\/contrib\/jquery_ui_filter\/jquery_ui_filter.js":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/js\/uscert_webforms.js":1,"profiles\/uscert_gov\/modules\/contrib\/jquery_ui_filter\/accordion\/jquery_ui_filter_accordion.js":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.js":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/js\/global.js":1,"profiles\/dhs_wcm\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/css\/uscert_webforms.css":1,"modules\/user\/user.css":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/dhs_wcm\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dhs_wcm\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/default\/files\/css\/follow.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/css\/global.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"jQueryUiFilter":{"disabled":0,"accordionHeaderTag":"h3","accordionOptions":{"active":"false","animated":"slide","autoHeight":"false","clearStyle":"false","collapsible":"true","event":"click","scrollTo":0,"history":"false"}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(\\.gov|\\.mil|\\.org.*|twitter\\.com\\\/share\\?url\\=.*|www\\.facebook\\.com\\\/sharer\\.php\\?u\\=.*|www\\.addthis\\.com\\\/bookmark\\.php\\?url\\=.*|javascript\\:window\\.print\\(\\)\\;)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"You are now leaving an official website of the United State Government (USG), the Department of Homeland Security (DHS) and the United States Computer Emergency Readiness Team (US-CERT). Links to non-USG, non-DHS and non-US-CERT sites are provided for the visitor\u0027s convenience and do not represent an endorsement by USG, DHS or US-CERT of any commercial or private issues, products or services. Note that the privacy policy of the linked site may differ from that of USG, DHS and US-CERT.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["us-cert.gov"]},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
+//--><!]]>
+
+ 
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+ Official website of the Department of Homeland Security 
+
+ 
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+Search query 
+
+<!--/*--><![CDATA[/* ><!--*/
+.view-id-current_job_openings .views-table thead th {
+color: white;
+}
+
+/*--><!]]>*/
+
+<!--/*--><![CDATA[/* ><!--*/
+.general-table {
+        margin-bottom: 2px;
+        margin-top: 2px;
+}
+
+.general-table th {
+        border: 1px solid #2b5580;
+        background-color: #4078b1;
+        background-image: -webkit-gradient(
+                linear,
+                left bottom,
+                left top,
+                color-stop(0.15, rgb(41,90,139)),
+                color-stop(0.85, rgb(64,120,177))
+        );
+        background-image: -moz-linear-gradient(
+                center bottom,
+                rgb(41,90,139) 15%,
+                rgb(64,120,177) 85%
+        );
+        color: #FFFFFF;
+        text-align: center;
+}
+
+.general-table td, .general-table th {
+        border: 1px solid #2b5580;
+        line-height: 1.2em;
+	padding: 10px;
+}
+
+.general-table caption {
+	padding: 14px;
+	
+}
+
+.general-table caption strong {
+        line-height: 1.2em;
+	padding: 10px;
+	font-size: 14px;
+}
+
+}
+
+/*--><!]]>*/
+
+<!--/*--><![CDATA[/* ><!--*/
+.table-in-accordion {
+        margin-bottom: 2px;
+        margin-top: 2px;
+}
+
+.table-in-accordion th {
+        border: 1px solid #2b5580;
+        background-color: #4078b1;
+        background-image: -webkit-gradient(
+                linear,
+                left bottom,
+                left top,
+                color-stop(0.15, rgb(41,90,139)),
+                color-stop(0.85, rgb(64,120,177))
+        );
+        background-image: -moz-linear-gradient(
+                center bottom,
+                rgb(41,90,139) 15%,
+                rgb(64,120,177) 85%
+        );
+        color: #FFFFFF;
+        text-align: center;
+}
+
+.table-in-accordion td, .table-in-accordion th {
+        border: 1px solid #2b5580;
+        line-height: 1.2em;
+	padding: 6px;
+}
+
+.table-in-accordion caption {
+	padding: 14px;
+	
+}
+
+.table-in-accordion caption strong {
+        line-height: 1.2em;
+	padding: 10px;
+	font-size: 14px;
+}
+
+}
+
+/*--><!]]>*/
+ 
+
+ 
+ 
+
+
+
+
+
+Main menuHomeAbout UsCareersPublicationsAlerts and TipsRelated ResourcesC³ VP 
+
+
+
+
+
+
+
+
+
+
+
+Information For
+
+Control System UsersInformation for industrial control systems owners, operators, and vendors.
+Government UsersResources for information sharing and collaboration among government agencies.
+Home and BusinessInformation for system administrators and technical users about latest threats.
+ 
+
+ 
+
+
+
+2015 Alerts
+
+
+
+
+
+Alerts provide timely information about current security issues, vulnerabilities, and exploits. Sign up to receive these technical alerts in your inbox or subscribe to our RSS feed.
+
+2015 | 2014 | 2013 | 2012 | 2011 | 2010 | 2009
+View Alerts Feed 
+
+  
+TA15-337A : 
+Dorkbot 
+
+TA15-314A : 
+Compromised Web Servers and Web Shells - Threat Awareness and Guidance  
+
+TA15-286A : 
+Dridex P2P Malware 
+
+TA15-240A : 
+Controlling Outbound DNS Access 
+
+TA15-213A : 
+Recent Email Phishing Campaigns – Mitigation and Response Recommendations 
+
+TA15-195A : 
+Adobe Flash and Microsoft Windows Vulnerabilities 
+
+TA15-120A : 
+Securing End-to-End Communications 
+
+TA15-119A : 
+Top 30 Targeted High Risk Vulnerabilities 
+
+TA15-105A : 
+Simda Botnet 
+
+TA15-103A : 
+DNS Zone Transfer AXFR Requests May Leak Domain Information 
+
+TA15-098A : 
+AAEH 
+
+TA15-051A : 
+Lenovo Superfish Adware Vulnerable to HTTPS Spoofing 
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+I Want ToReport incidentsReport phishingReport malwareReport software vulnerabilitiesSubscribe to AlertsReceive security alerts, tips, and other updates.Enter email address  Mailing Lists and FeedsTwitterContact Us(888) 282-0870Send us emailDownload PGP/GPG keys  
+
+ 
+
+
+
+
+
+HomeFAQContact UsTraffic Light ProtocolPCIIDHS Privacy PolicyDisclaimerAccessibilityGet a PDF ReaderUS-CERT is part of the Department of Homeland Security.
+<!--//--><![CDATA[// ><!--
+
+		jQuery('#email-address-field').resetField();
+	
+//--><!]]>
+ 
+
+ 
+ 
+  
+
+Back to Top 
+
+
